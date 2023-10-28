@@ -1,5 +1,5 @@
-# Module 3. JS Core. Lesson 10. Test 4.
+# Module 3. JS Core. Lesson 10. Test work 4.
 
-# The Array. Array cleaning. Removing duplicates from the Array.
+# Array. Array cleaning. Removing duplicates from the array.
 
-The removeDuplicates(arr) function takes an array arr and returns the array from which the duplicates were removed, case ignoring. Using the filter() and findIndex() methods of Array.
+Use the `filter()` method to create a new array that contains only unique elements. The `toLowerCase()` method converts each element to lowercase, and the `findIndex()` method is used to find unique elements and add them to the resulting array. Thus, the removeDuplicates(arr) function takes an array of arr and returns a case-insensitive array from which the duplicates were removed.
