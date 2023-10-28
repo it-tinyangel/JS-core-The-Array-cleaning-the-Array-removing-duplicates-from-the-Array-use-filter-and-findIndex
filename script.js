@@ -1,4 +1,4 @@
-// Function to remove duplicates from an array.
+// Function to remove duplicate elements from an array.
 function removeDuplicates(arr) {
 	return arr.filter((item, index, array) => {
 		const lowerCaseItem = item.toLowerCase();
