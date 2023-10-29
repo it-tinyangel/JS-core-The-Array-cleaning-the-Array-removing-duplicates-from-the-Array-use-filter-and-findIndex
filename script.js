@@ -11,11 +11,11 @@ function removeDuplicates(arr) {
 const arr1 = ['html', 'css', 'html', 'js'];
 const arr2 = ['html', 'css', 'js', 'html', 'js', 'python', 'js', 'scss'];
 const arr3 = ['html', 'css', 'html', 'HTML', 'js']; // Added an uppercase duplicate.
-const cleanedArray1 = removeDuplicates(arr1);
-const cleanedArray2 = removeDuplicates(arr2);
-const cleanedArray3 = removeDuplicates(arr3);
+const cleanArr1 = removeDuplicates(arr1);
+const cleanArr2 = removeDuplicates(arr2);
+const cleanArr3 = removeDuplicates(arr3);
 
 // Outputing the result to the console.
-console.log(`Cleaned Array1:`, cleanedArray1);
-console.log(`Cleaned Array2:`, cleanedArray2);
-console.log(`Cleaned Array3:`, cleanedArray3);
+console.log(`Clean Array arr1:`, cleanArr1);
+console.log(`Clean Array arr2:`, cleanArr2);
+console.log(`Clean Array arr3:`, cleanArr3);
